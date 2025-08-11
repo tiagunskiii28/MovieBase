@@ -1,0 +1,6 @@
+/vendor
+/mysql
+/etc
+/docerfiles
+/nginx
+docker-compose.yaml

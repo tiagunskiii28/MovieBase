@@ -34,5 +34,13 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'elasticseardch' => [
+        'hosts' => [
+            env('ELASTICSEARCH_HOST', 'localhost:9200'),
+        ],
+    ],
+    'tmdb' => [
+        'base' => env('TMDB_BASE'),
+    ],
 
 ];
